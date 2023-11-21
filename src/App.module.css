@@ -1,0 +1,34 @@
+.calc {
+	width: 23%;
+	height: 23%;
+	background: rgb(96, 95, 95);
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.input {
+	color: white;
+	background: #1c191c;
+	line-height: 70px;
+	font-size: 2.5em;
+	flex: 1;
+	text-align: right;
+}
+
+.buttonContainer {
+	display: inline-block;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 8px;
+	margin: 8px;
+}
+
+.button {
+	margin: 8px;
+	width: 90%;
+	height: 90%;
+}
+
+.result {
+	color: green;
+}
